@@ -1,0 +1,53 @@
+[
+	{
+	id: "098734567",
+	seccion: "Acerca de",
+	tituloH1: "Â¡Vive MÃ©xico en un solo lugar! ",
+	img: [
+		{
+			alt: "Xcaret Aerea",
+			source: "http://www.xcaretexperiencias.com/img/xcaret/xcaret-parque-aerea.jpg"
+		},
+		{
+			alt: "Xcaret Rio Paraiso",
+			source: "http://www.xcaretexperiencias.com/img/xcaret/xcaret-rio-paraiso.jpg"
+		},
+		{
+			alt: "Xcaret Jaguar",
+			source: "http://www.xcaretexperiencias.com/img/xcaret/xcaret-jaguar.jpg"
+		},
+		{
+			alt: "Xcaret Mexico Espectacular",
+			source: "http://www.xcaretexperiencias.com/img/xcaret/xcaret-mexico-espectacular.jpg"
+		},
+		{
+			alt: "Xcaret Mexico Espectacular Pelota",
+			source: "http://www.xcaretexperiencias.com/img/xcaret/xcaret-mexico-espectacular-pelota.jpg"
+		}
+	],
+	videoYT: "https://www.youtube.com/watch?v=A-2w7_qTSVQ&feature=youtu.be",
+	maps360: "https://maps.google.com/maps?cbll=20.581521,-87.117985&layer=c&panoid=O9sjsQpyG_apcFrkq20Q_A&cbp=13,10.62,,0,4.48&ie=UTF8&ll=20.581521,-87.117985&spn=0.136599,0.232773&t=h&z=13&source=embed&output=svembed",
+	descripcion: "Xcaret es un parque natural con mÃ¡s de 50 atractivos para todas las edades, perfecto para ir con toda la familia. AquÃ­ puedes nadar en rÃ­os subterrÃ¡neos, pasear por senderos en medio de la jungla y recorrer cuevas misteriosas. Descubre nuevos colores en el Mariposario y los misterios del fondo marino en el Acuario de Arrecife de Coral. Admira de cerca venados, jaguares, flamingos y aves exÃ³ticas. En Xcaret MÃ©xico hay diversos atractivos para visitar, como los vestigios mayas, el Museo de Arte Popular Mexicano, una clÃ¡sica hacienda henequenera y la capilla de Guadalupe. AdemÃ¡s disfruta de la cultura mexicana con las danzas prehispÃ¡nicas, la charrerÃ­a y la magnÃ­fica presentaciÃ³n de Xcaret MÃ©xico Espectacular, con mÃ¡s de 300 artistas en escena. En Xcaret Riviera Maya hay una amplia variedad de restaurantes para elegir. Y para tu mayor comodidad, tenemos Ã¡reas de descanso, vestidores, duchas y sanitarios, ubicados en distintas Ã¡reas del parque. Â¡Ven a Xcaret y vive con tu familia la experiencia mÃ¡s inolvidable de sus vacaciones!",
+	atractivos: [
+		{
+			titulo: "ADRENALINA",
+			img: "http://www.xcaret.com.mx/img/opcionales/adrenalina-xcaret.jpg",
+			desc: "Adrenalina es un nuevo y fascinante paseo a bordo de una veloz embarcaciÃ³n por las aguas del mar Caribe...",
+			link: "http://www.xcaret.com.mx/adrenalina-en-xcaret-cancun.php"
+		},
+		{
+			titulo: "ADVENTURE KIDS",
+			img: "http://www.xcaret.com.mx/img/opcionales/adventure-kids-xcaret.jpg",
+			desc: "Â¿EstÃ¡s en busca de un momento especial para los pequeÃ±os? Te presentamos Adventure Kids, una nueva actividad con la...",
+			link: "http://www.xcaret.com.mx/adventure-kids-xcaret.php"
+		},
+		{
+			titulo: "CENAS MÃ‰XICO ESPECTACULAR",
+			img: "http://www.xcaret.com.mx/img/opcionales/cena-tlachco-xcaret.jpg",
+			desc: "El Gran Tlachco es sede del colorido espectÃ¡culo â€œXcaret MÃ©xico Espectacularâ€, uno de los principales atractivos...",
+			link: "http://www.xcaret.com.mx/cena-tlachco-xcaret.php"
+		}
+		],
+		CTA: "https://www.xperienciasxcaret.mx//ecom/index.php?page=detalle&ssid=a0645141d006c96c6e7895b36891d02d5269457b0ffd15b813cc7a463ba9227601b917734f7a69d0dcca8c46b70e006396a9c2524403351537e68df055e2805fa59f9adda3944f9069a6e3ecc3b6b8594abe970c397cb68b96c37fbe5ebf1a2a9628be64f50d6c9296251c15773c65645d5e5e4c1b8d748ef7edd1c4&lang=es_MX&ig=0&p=es&a=0&h=0&ff=1&iso2=MX&_ga=1.254248200.1028893602.1458744947"
+	}
+]
