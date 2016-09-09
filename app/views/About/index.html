@@ -1,0 +1,88 @@
+<div *ngFor="let about of abouts" class="head-container">
+    
+    <header style="margin-bottom:270px;"></header>
+
+    <ol class="breadcrumb font-breadcrumb head-nav">
+        <li><i>Inicio</i></li>
+        <li class="active">{{about.seccion}}</li>
+    </ol>
+
+    <sidebar></sidebar>
+        
+    <div id="main-video" class="head-nav">
+        <div class="video-container">
+            <iframe src="{{about.videoYT}}" frameborder="0" width="560" height="315"></iframe>
+        </div>
+
+        <div class="btn-group btn-group-justified" role="group">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default btn-block"><h5>Ver Imágenes</h5></button>
+            </div>
+              
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default btn-block"><h5>Vista 360º</h5></button>
+            </div>
+        </div>
+
+        <div class="clear25"></div>
+
+            <h3>{{about.tituloH1}}</h3>            
+            <hr />
+
+            <div class="top-body-text">
+                <p>{{about.descripcion}}</p>
+            </div>
+
+            <div class="clear25"></div>
+
+            <h3>Atractivos principales</h3>            
+            <hr />
+
+            <div *ngFor="let a of about.atractivos">
+                <div class="media"> 
+                    <div class="media-left media-middle"> 
+                        <a href="#"> 
+                            <img class="media-object" src="{{a.img}}" data-holder-rendered="true" style="width:310px; height:215px;">
+                        </a> 
+                    </div> 
+                    
+                    <div class="media-body"> 
+                        <h4 class="media-heading">{{a.titulo}}</h4> 
+                        <br />
+                            <p>{{a.desc}}</p> 
+                    </div> 
+                </div> 
+                <div class="clear25"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-4 col-md-4"></div>
+                <div class="col-xs-4 col-md-4"></div>
+
+                <div class="col-xs-4 col-md-4"><button type="button" class="btn btn-success btn-lg">Cotizar entrada ahora</button></div>
+
+
+            </div>
+
+        <div class="clear25"></div>
+        </div>
+
+
+     
+<prefooter></prefooter>
+<footer></footer>
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+

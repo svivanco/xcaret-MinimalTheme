@@ -18,18 +18,15 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            HeaderComponent = (function () {
-                function HeaderComponent() {
-                }
-                HeaderComponent = __decorate([
-                    core_1.Component({
-                        selector: 'header',
-                        templateUrl: 'app/views/header.html'
-                    }), 
-                    __metadata('design:paramtypes', [])
-                ], HeaderComponent);
-                return HeaderComponent;
-            }());
+            let HeaderComponent = class HeaderComponent {
+            };
+            HeaderComponent = __decorate([
+                core_1.Component({
+                    selector: 'header',
+                    templateUrl: 'app/views/header.html'
+                }), 
+                __metadata('design:paramtypes', [])
+            ], HeaderComponent);
             exports_1("HeaderComponent", HeaderComponent);
         }
     }

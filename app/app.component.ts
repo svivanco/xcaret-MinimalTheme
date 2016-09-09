@@ -1,22 +1,28 @@
 import {Component} from '@angular/core';
-import {AboutService} from './about.service';
+import {AboutService} from './services/about.service';
 import {HeaderComponent} from "./components/header.component";
+import {AboutComponent} from "./components/about.component";
+import {SidebarComponent} from "./components/sidebar.component";
+import {PrefooterComponent} from "./components/prefooter.component";
 import {FooterComponent} from "./components/footer.component";
 import {Observable} from 'rxjs/Rx';
 
+
 @Component({
-  selector: 'demo-app',
-  templateUrl: 'app/views/about.html'
-  //styleUrls: ['../assets/css/styles.css'],
+  selector: 'xcaret-app',
+  templateUrl: 'app/views/About/index.html',
+  providers: [AboutService],
   directives:  [ 
                  HeaderComponent,
+                 AboutComponent,
+                 SidebarComponent,
+                 PrefooterComponent,
                  FooterComponent
                ]
 })
 
 export class AppComponent {
 
-  public books;
   public abouts;
 
   constructor(private _aboutService: AboutService) { 
@@ -24,24 +30,8 @@ export class AppComponent {
 
   ngOnInit() {
     this.getAbouts();
-    this.getBooks();
   }
 
-
-  getBooks() {
-    this._aboutService.getBooks().subscribe(
-
-      // the first argument is a function which runs on success
-      data => { 
-        this.books = data
-      },
-      // the second argument is a function which runs on error
-      error => {
-         console.error("Error");
-         return Observable.throw(error);
-       }
-    );
-  }
 
 
   getAbouts() {
@@ -58,19 +48,5 @@ export class AppComponent {
        }
     );
   }
-
-
-
-  getAbout2() {
-    this._aboutService.getAbout().subscribe(
-      data => {
-        this.aboutData = data
-      }
-      // No error or completion callbacks here. They are optional, but
-      // you will get console errors if the Observable is in an error state.
-    );
-  }
-
-
 
 }

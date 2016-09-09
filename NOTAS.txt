@@ -1,0 +1,15 @@
+
+*Modifiqué el JSON ya que lo pasé por un validador de formato y no cumplía con el standard. 
+ANTES -> alt: "Xcaret Aerea",
+AHORA -> "alt": "Xcaret Aerea",
+
+*Modifiqué la url de video de youtube en el servicio:
+ANTES -> watch?v= 
+AHORA -> /v
+Esto parece ser un error de encode en Angular2, vi varias soluciones pero implicaban crear métodos para reemplazar esa sección.
+
+
+*Modifiqué los acentos en el servicio, al parecer se guardó con una codificación diferente. No identifiqué ningún encode en Angular2 que manejara esos símbolos.
+ANTES -> mÃ¡s
+AHORA -> más
+

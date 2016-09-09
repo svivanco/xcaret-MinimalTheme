@@ -1,0 +1,131 @@
+.sidebar{
+    position: absolute; 
+    right: 0px; 
+    /*padding: 10px;*/
+}
+
+#overText {
+   border-radius: 8px;
+   opacity: 0.8;
+}
+
+.jqifade {
+    background-color: black !important;
+}
+
+#over {
+    background-color: black !important;
+}
+
+div.jqi {
+    width: 320px !important;s
+    text-align: center !important;
+    padding-top: 80px !important;
+    background-image: url('../img/icon-warning.png');
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    background-size: 59px;
+    margin-left: -160px !important;
+}
+
+div.jqi .jqibuttons {
+    text-align: center !important;
+}
+
+div.jqi button {
+    border-radius: 5px;
+    font-weight: 700;
+    color: #808080 !important;
+    padding: 5px 30px !important;
+    background-color: rgba(215, 215, 215, 1) !important;
+}
+
+div.jqi button:hover {
+    background-color: rgba(255, 239, 153, 1) !important;
+    color: rgba(215, 156, 16, 1) !important;
+}
+
+div.jqi .jqimessage {
+    color: rgba(138, 135, 135, 1) !important;
+    font-size: 18px;
+    text-align: center !important;
+}
+
+.divisas{
+    float: right;
+    width: 36%;
+    height: 30px;
+}
+
+.ticket{
+    width: 100%;
+    height: 30px;
+}
+
+.feVisita{
+    width: 80%;
+    float: left;
+}
+
+.ubicacion{
+    width: 100% !important;
+    height: 30px;
+}
+
+#comprar{
+    width: 100% !important;
+    /*margin-top: 10px;*/
+    padding : 8px 15px;
+}
+
+#paxAdulto{
+    float: left;
+    width: 48%;
+    height: 30px;
+}
+
+#paxMenor{
+    float: right;
+    width: 48%;
+    height: 30px;
+}
+
+.book {
+    text-align: left;
+}
+
+.ui-datepicker-trigger{
+    width: 13% !important;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    max-width: 35px;
+}
+.loading > img{
+    position: absolute;
+    margin: 30% 34%;
+    width: 20%;
+}
+.locacion{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ticket, .feVisita, .ubicacion, .divisas, #paxAdulto, #paxMenor, #optTrans {
+    background-color: rgb(255,255,255);
+    margin-bottom: 10px;
+    padding: 4px 4px 4px 7px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    color: #000;
+    border-radius: 4px;
+}
+
+@media (max-width: 767px){
+    .feVisita{
+        width: 90%;
+    }
+    .ui-datepicker-trigger{
+        width: 8% !important;
+    }
+}
+ 
